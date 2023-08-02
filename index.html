@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/1f8e94d034.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+
+    <title>Checkpoint DOM</title>
+  </head>
+  <body>
+    <header>
+      <!-- barre de navigation -->
+      <nav class="navbar fixed-top">
+        <div><img id="logo" src="logo.png" alt="" /></div>
+
+        <div class="navbar">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About us</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="Basse">
+        <span><h1>Basse Légumes</h1></span>
+        <span><h1>Le Maitre des Légumes</h1></span>
+      </div>
+    </header>
+    <main>
+      <!-- mes produits -->
+      <div><h1>NOS PRODUITS A PETIT PRIX</h1></div>
+      <div>
+        <div class="cart">
+          <h2>Mon Panier</h2>
+          <h2>
+            <i class="fa-solid fa-cart-plus">:</i>
+          </h2>
+
+          <h2 id="num-cart">0</h2>
+          <h2>XOF</h2>
+        </div>
+        <div class="col-6" id="articles">
+          <div class="Legumes" id="ndougg">
+            <div class="like-delete">
+              <div id="like">
+                <i class="fa-solid fa-heart fa-lg"></i>
+              </div>
+              <div id="delete">
+                <i class="fa-solid fa-trash-can"></i>
+              </div>
+            </div>
+            <img id="img" src="mes légumes/chou-pommé.jpg" alt="" />
+            <h2>chou-pommé</h2>
+            <div>
+              <span>prix unitaire:</span>
+              <span>800</span>
+              <span>XOF</span>
+            </div>
+            <div id="total">
+              <span>Total unitaire:</span>
+              <span class="prix">0</span>
+              <span>XOF</span>
+            </div>
+            <div class="valeur">
+              <button class="sub">-</button>
+              <span class="num">0</span>
+              <button class="plus">+</button>
+            </div>
+          </div>
+          <div class="Legumes" id="ndougg">
+            <div class="like-delete">
+              <div id="like">
+                <i class="fa-solid fa-heart fa-lg"></i>
+              </div>
+
+              <div id="delete">
+                <i class="fa-solid fa-trash-can"></i>
+              </div>
+            </div>
+            <img id="img" src="mes légumes/bassante.jpg" alt="" />
+            <h2>bassante</h2>
+            <div>
+              <span>prix unitaire:</span>
+              <span>400</span>
+              <span>XOF</span>
+            </div>
+            <div id="total">
+              <span>Total unitaire:</span>
+              <span class="prix">0</span>
+              <span>XOF</span>
+            </div>
+            <div class="valeur">
+              <button class="sub">-</button>
+              <span class="num">0</span>
+              <button class="add">+</button>
+            </div>
+          </div>
+          <div class="Legumes" id="ndougg">
+            <div class="like-delete">
+              <div id="like">
+                <i class="fa-solid fa-heart fa-lg"></i>
+              </div>
+              <div id="delete">
+                <i class="fa-solid fa-trash-can"></i>
+              </div>
+            </div>
+            <img id="img" src="mes légumes/concombre.jpg" alt="" />
+            <h2>concombre</h2>
+            <div>
+              <span>prix unitaire:</span>
+              <span>1200</span>
+              <span>XOF</span>
+            </div>
+            <div id="total">
+              <span>Total unitaire:</span>
+              <span class="prix">0</span>
+              <span>XOF</span>
+            </div>
+            <div class="valeur">
+              <button class="sub">-</button>
+              <span class="num">0</span>
+              <button class="add">+</button>
+            </div>
+          </div>
+          <div class="Legumes" id="ndougg">
+            <div class="like-delete">
+              <div id="like">
+                <i class="fa-solid fa-heart fa-lg"></i>
+              </div>
+              <div id="delete">
+                <i class="fa-solid fa-trash-can"></i>
+              </div>
+            </div>
+            <img id="img" src="mes légumes/diakhatou.jpg" alt="" />
+            <h2>diakhatou</h2>
+            <div>
+              <span>prix unitaire:</span>
+              <span>1000</span>
+              <span>XOF</span>
+            </div>
+            <div id="total">
+              <span>Total unitaire:</span>
+              <span class="prix">0</span>
+              <span>XOF</span>
+            </div>
+            <div class="valeur">
+              <button class="sub">-</button>
+              <span class="num">0</span>
+              <button class="add">+</button>
+            </div>
+          </div>
+          <div class="Legumes" id="ndougg">
+            <div class="like-delete">
+              <div id="like">
+                <i class="fa-solid fa-heart fa-lg"></i>
+              </div>
+              <div id="delete">
+                <i class="fa-solid fa-trash-can"></i>
+              </div>
+            </div>
+            <img id="img" src="mes légumes/navet.jpg" alt="" />
+            <h2>navet</h2>
+            <div>
+              <span>prix unitaire:</span>
+              <span>500</span>
+              <span>XOF</span>
+            </div>
+            <div id="total">
+              <span>Total unitaire:</span>
+              <span class="prix">0</span>
+              <span>XOF</span>
+            </div>
+            <div class="valeur">
+              <button class="sub">-</button>
+              <span class="num">0</span>
+              <button class="add">+</button>
+            </div>
+          </div>
+          <div class="Legumes" id="ndougg">
+            <div class="like-delete">
+              <div id="like">
+                <i class="fa-solid fa-heart fa-lg"></i>
+              </div>
+              <div id="delete">
+                <i class="fa-solid fa-trash-can"></i>
+              </div>
+            </div>
+            <img id="img" src="mes légumes/patate-douce.jpeg" alt="" />
+            <h2>patate douce</h2>
+            <div>
+              <span>prix unitaire:</span>
+              <span>600</span>
+              <span>XOF</span>
+            </div>
+            <div id="total">
+              <span>Total unitaire:</span>
+              <span class="prix">0</span>
+              <span>XOF</span>
+            </div>
+            <div class="valeur">
+              <button class="sub">-</button>
+              <span class="num">0</span>
+              <button class="add">+</button>
+            </div>
+          </div>
+          <div class="Legumes" id="ndougg">
+            <div class="like-delete">
+              <div id="like">
+                <i class="fa-solid fa-heart fa-lg"></i>
+              </div>
+              <div id="delete">
+                <i class="fa-solid fa-trash-can"></i>
+              </div>
+            </div>
+            <img id="img" src="mes légumes/piment-goana.jpg" alt="" />
+            <h2>piment-goana</h2>
+            <div>
+              <span>prix unitaire:</span>
+              <span>4000</span>
+              <span>XOF</span>
+            </div>
+            <div id="total">
+              <span>Total unitaire:</span>
+              <span class="prix">0</span>
+              <span>XOF</span>
+            </div>
+            <div class="valeur">
+              <button class="sub">-</button>
+              <span class="num">0</span>
+              <button class="add">+</button>
+            </div>
+          </div>
+          <div class="Legumes" id="ndougg">
+            <div class="like-delete">
+              <div id="like">
+                <i class="fa-solid fa-heart fa-lg"></i>
+              </div>
+              <div id="delete">
+                <i class="fa-solid fa-trash-can"></i>
+              </div>
+            </div>
+
+            <img id="img" src="mes légumes/poivron-rouge-jaune.jpg" alt="" />
+            <h2>poivron</h2>
+            <div>
+              <span>prix unitaire:</span>
+              <span>2000</span>
+              <span>XOF</span>
+            </div>
+            <div id="total">
+              <span>Total unitaire:</span>
+              <span class="prix">0</span>
+              <span>XOF</span>
+            </div>
+            <div class="valeur">
+              <button class="sub">-</button>
+              <span class="num">0</span>
+              <button class="add">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- mon pied de page -->
+      <div>
+        <span><h4>Basse Légumes</h4></span>
+        <span><h4>Le Marché des Fruits et Légumes Frais du Sénégal.</h4></span>
+        <span><h4>fatouniangbasse@gmail.com</h4></span>
+        <span><h4>33 456 56 06</h4></span>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
